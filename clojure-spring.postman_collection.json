@@ -11,9 +11,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{HOST}}:8080/hello",
+					"raw": "localhost:8080/hello",
 					"host": [
-						"{{HOST}}"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -29,9 +29,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{HOST}}:8080/factorial/9",
+					"raw": "localhost:8080/factorial/9",
 					"host": [
-						"{{HOST}}"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -48,9 +48,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{HOST}}:8080/add?a=5&b=10",
+					"raw": "localhost:8080/add?a=5&b=10",
 					"host": [
-						"{{HOST}}"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
@@ -76,9 +76,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{HOST}}:8080/letters/politechnika",
+					"raw": "localhost:8080/letters/politechnika",
 					"host": [
-						"{{HOST}}"
+						"localhost"
 					],
 					"port": "8080",
 					"path": [
