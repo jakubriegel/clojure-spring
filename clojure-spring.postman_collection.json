@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "e90a3daa-cee0-48a7-8726-747c495b2b46",
+		"name": "clojure-spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:8080/hello",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "factorial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:8080/factorial/9",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "8080",
+					"path": [
+						"factorial",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:8080/add?a=5&b=10",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "8080",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "5"
+						},
+						{
+							"key": "b",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "letters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}:8080/letters/politechnika",
+					"host": [
+						"{{HOST}}"
+					],
+					"port": "8080",
+					"path": [
+						"letters",
+						"politechnika"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
